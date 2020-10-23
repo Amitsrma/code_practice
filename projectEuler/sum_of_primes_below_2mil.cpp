@@ -29,9 +29,6 @@ long long int primes(){
 		}
 		toCheck++;
 	}
-
-	cout <<"\n\n" << Divisors[length_divisors-3] << " " << Divisors[length_divisors-2] << " " << Divisors[length_divisors-1];
-
 	return out;
 }
 
