@@ -23,7 +23,7 @@ def isBinaryTree(root, left_limit = LEFT_LIMIT, right_limit = RIGHT_LIMIT):
     # check left branches
     # This is end condition, i.e. there is no number in left branch of current
     # node
-    if root.left is None:
+        if root.left is None:
         # this is end condition. If we have reached to the leaf node, it means
         # all above nodes satisfied the condition. So, left branches that are
         # traversed have
@@ -56,9 +56,8 @@ def isBinaryTree(root, left_limit = LEFT_LIMIT, right_limit = RIGHT_LIMIT):
             return False
     else:
         return False
-
-    if left_node and right_node:
-        return True
+    
+    return left_node and right_node
 
 
 def check_binary_search_tree_(root):
