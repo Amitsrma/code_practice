@@ -1,5 +1,5 @@
-LEFT_LIMIT = float('inf')
-RIGHT_LIMIT = -float('inf')
+LEFT_LIMIT = -float('inf')
+RIGHT_LIMIT = float('inf')
 
 class node:
   def __init__(self, data):
